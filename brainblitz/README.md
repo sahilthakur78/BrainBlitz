@@ -33,27 +33,7 @@ Demo login: `demo@brainblitz.dev` / `demo1234`
 
 ---
 
-## 📁 Environment Variables
 
-### `server/.env` (minimum required)
-```env
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/brainblitz
-JWT_SECRET=any_random_secret_string_here
-JWT_EXPIRE=7d
-CLIENT_URL=http://localhost:5173
-NODE_ENV=development
-
-# Optional but recommended
-ANTHROPIC_API_KEY=your_key    # For AI mentor hints
-JUDGE0_API_KEY=your_key       # For Python/C++ code execution
-```
-
-### `client/.env` (optional, proxy handles it in dev)
-```env
-VITE_API_URL=http://localhost:5000/api
-VITE_SOCKET_URL=http://localhost:5000
-```
 
 ---
 
